@@ -1,0 +1,25 @@
+body {
+    width: auto;
+    height: auto;
+    background-color: #191414; 
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    color: #FFFFFF;
+}
+
+.btn{
+    width: 350px;
+    height: 75px;
+    background-color: #969892;
+    font-family: "Open Sans", sans-serif;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-image:none;
+    background-color:#27AE60;
+    transition: all 0.7s ease-out;
+}
