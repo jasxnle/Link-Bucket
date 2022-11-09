@@ -1,0 +1,19 @@
+{
+    "name":"Link Bucket",
+    "description": "Displays the most five most recent websites you have visited",
+    "version": "1.0.3",
+    "manifest_version": 3,
+    "background": {
+        "service_worker" : "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "./images/download.png",
+            "32": "./images/download.png",
+            "48": "./images/download.png",
+            "128": "./images/download.png"
+        }
+    },
+    "permissions": ["history","topSites", "alarms", "tabs"]
+}
